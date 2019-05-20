@@ -1,56 +1,64 @@
 *{
-	margin:0;
-	padding:0;
-	color:#7a1c68
-}
-
-p{
-	color:#7a1c68;
-	font-size:60px;
-	font-family:tahoma
-}
-
-h1{
-	color:#982382; 
-	font-size:45px; 
-	font-family:tahoma
-}
-
-input[type="email"]{
-	width:300px; 
-	background-color:#fff0f5; 
-	border-radius:5px;
-	border-style:groove;
-	border:none;
-}
-
-input[type="date"]{
-	width:300px; 
-	background-color:#fff0f5; 
-	border-radius:5px;
-	color:f1c1e8;
-	border-style:groove;
-	border:none;
-}
-
-input[type="textarea"]{
-	width:300px; 
-	height:150px;
-	background-color:#fff0f5; 
-	border-radius:5px;
-	border:none;
+    margin:0;
+    padding:0;
+    color:#5c5c5c;
+    font-size:12px;
+    font-family:Tahoma;
 }
 
 input[type="text"]{
-	width:300px; 
-	background-color:#fff0f5; 
-	border-radius:5px;
-	border-style:groove;
-	border:none;
+    width:350px;
+    height:20px;
+    border-radius: 5px;
+}
+
+input[type="email"]{
+    width:350px;
+    height:20px;
+    border-radius: 5px;
+}
+
+input[type="textarea"]{
+    width:350px;
+    height:60px;
+    border-radius: 5px;
+}
+
+input[type="date"]{
+    color:#9c9c9c;
+    width:350px;
+    height:20px;    
+    border-radius: 5px;
+}  
+
+input[type="submit"]{
+    background-color:#0064cc;
+    border-color:#0057b3;
+    color: white;
+    width:80px;
+    height:30px;
+    border-radius: 5px;
+}
+
+label[for="news"]{
+    color: black;
+}
+
+p{
+    color:#7ec511;
+	font-size:14px;
+	font-family:Tahoma;
 }
 
 div{
-	padding:5px;
-	background-color: #fff; 
-	width:500px
+    width:360px;
+    border-radius: 20px;
+}
+
+fieldset{
+	padding:15px;
+    width: 365px;
+    height: 320px;
+    margin-top:10%;
+    border-radius:5px;
 }
